@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership </title>
+    <style>
+        *{
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    background-image: url(grad.jpg);
+    background-attachment: fixed;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+     background-size: cover;
+}
+.container {
+    background-color: #f2f2f2;
+    padding: 5PX 20PX 15PX 20PX;
+    border: 3px solid rgb(206, 96, 45);
+    background:transparent;
+    border-radius: 4px;
+}
+input [type="text"],
+input [type="email"],
+input [type="number"],
+input [type="password"],
+input [type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin:10px;
+}
+field{
+    background-color: #ffff;
+    box-decoration-break: 1px solid #cccccc;
+}
+.main_heading {
+    text-align: center;
+}
+input[type="submit"] {
+    background-color:#4daea1;
+    color: white;
+    padding:12px 20px;
+    boder:none;
+    boder-radius:4px;
+    cursor:pointer;
+    width:100%;
+}
+input[type="submit" ]:hover{
+    background-color:#4caf84;
+}
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="project.html">
+    <div class="container">
+    <h2>Membership Plans</h2>
+        <label >Select a Plan</label>
+        <select name="select plan" id="plan types" required>
+            <option value="">--Select a plan--</option>
+            <option value="3-months plan : 3500"> 3-months plan : 3500</option>
+            <option value="per month : 1200"> Per month : 1200</option>
+            <option value="6-months plan : 6500"> 6-months plan : 6500</option>
+            <option value="1 year plan : 11000"> 1 year plan : 11000</option>
+        </select>
+        
+                 <h2>Payment Information</h2>
+     <p>Card type:
+         <select name="card type" id="card type" required>
+             <option value="">--Select a card type--</option>
+             <option value="visa">Visa</option>
+             <option value="Rupay">Rupay</option>
+             <option value="Mastercard">Mastercard</option>
+         </select>
+     </p>
+     <p>Card no.:<input type="number" name="card_number" id="card_number" required> </p>
+     <p>Expiration Date:<input type="date" name="exp_date" id="exp_date" required> </p>
+    <p>CVV:<input type="password" name="cvv" id="cvv" required> </p>
+    <input type="submit" value="Pay Now">
+</form>
+</div>
+</body>
+</html>

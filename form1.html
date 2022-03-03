@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+         *{
+            box-sizing: border-box;
+            
+        }
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            margin: 30px;
+            font-size: 25px;
+            padding: 10px;
+            background-image: url(fbi.jpg);
+        }
+        .full{
+            background-color: transparent;   
+            padding:5px 20px 15px 20px ;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        fieldset,input[type="text"], input[type="password"], input[type="email"], input[type="number"],textarea{
+            width: 100%;
+            padding: 10px;
+            border: 2px solid rgb(70, 67, 67);
+            border-radius: 10px;
+
+        }
+        input[type="submit"],.btn{
+            background-color: lightcyan;
+            padding: 10px;
+            border:none;
+            border-radius: 4px;
+            cursor:pointer;
+            
+            width: 30%;
+        }
+        input[type="submit"]:hover{
+            background-color: black;
+            color: white;
+            
+        }
+        .sub{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="full">
+        <form action = "project.html" method ="get">
+	
+        <fieldset>
+        <legend style="font-family: cursive; font-weight: 900;">Sign In </legend>
+        
+        <label class="z"><b>Username:</b><br>
+        <input type="text" name="Username" required="required" /><label><br>
+        <label class="z"><b>Password:</b><br>
+        <input type="password" name="Password" required="required"/><label><br>
+        <div class="sub">
+        <input type="submit" value="Sign In" /></div>
+       
+        </fieldset>
+        <p style="color: azure;" ><b>Don't have an account?</b></p>
+        <button class="btn"><a href="form.html" target="_blank">Sign Up</a></button>
+        <br><br><a style="color: black;" href="">Forot Password</a>
+        </form>
+    </div>
+</body>
+</html>

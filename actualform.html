@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            margin: 30px;
+            font-size: 25px;
+            padding: 10px;
+            background-image: url(fbi.jpg);
+        }
+        .full{
+            background-color: transparent;   
+            padding:5px 20px 15px 20px ;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        fieldset,input[type="text"], input[type="password"], input[type="email"], input[type="number"],textarea{
+            width: 100%;
+            padding: 10px;
+            border: 2px solid rgb(70, 67, 67);
+            border-radius: 10px;
+
+        }
+        input[type="submit"]{
+            background-color: lightcyan;
+            padding: 10px;
+            border:none;
+            border-radius: 4px;
+            cursor:pointer;
+            
+            width: 30%;
+        }
+        input[type="submit"]:hover{
+            background-color: black;
+            color: white;
+            
+        }
+        .sub{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="full">
+        <form action = "abc.php" method ="get">
+	
+        <fieldset>
+        <legend style="font-family: cursive; font-weight: 900;">Sign In </legend>
+        
+        <label class="z"><b>Username:</b><br>
+        <input type="text" name="Username" required="required" /><label><br>
+        <label class="z"><b>Password:</b><br>
+        <input type="password" name="Password" required="required"/><label><br>
+        <div class="sub">
+        <input type="submit" value="Sign In" /></div>
+        </fieldset>
+        </form>
+    </div>
+
+<br><br>
+    <div class="full">
+        <form action ="" method="get">
+            <fieldset>
+                <legend style="font-family: cursive;font-weight: 900;">User Information</legend>
+                
+                <label><b>Name:</b><br>
+                    <input type="text" name="Name" required="required" /></label><br>
+                <label><b>Create Username:</b><br>
+                    <input type="text" name="Username" required="required" /><label><br>
+                <label><b>Create Password:</b><br>
+                    <input type="password" name="Password" required="required"/><label><br>
+                <label><b>Email ID:</b><br>
+                    <input type="email" name="email" required="required"/></label><br>
+                <label><b>Phone No.:</b><br>
+                    <input type="number" name="number" required="required"/><br></label>
+                <label><b>Address:</b><br></label>
+                    <textarea name = "Address" cols = "30" rows = "5"></textarea><br>
+                <label><b>Gender:</b></label><br>
+            <ul>  
+                   <input type="radio" id="male" name="gender" value="male">
+                <label style="color: azure;" for="male"><i>Male</i></label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                <label style="color: azure;" for="female"><i>Female</i></label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                <label style="color: azure;" for="other"><i>Other</i></label><br> 
+            </ul>   
+            <br><br>
+                <label><b>Health Issues:</b><br></label>
+                    <textarea name = "Feedback" cols = "30" rows = "3"></textarea><br>
+                <label><b>Age:</b><br>
+                    <input type="number" name="Age" required="required"/><br></label>
+                <div class="sub">
+                    <input type="submit" value="Sign Up" /></div>
+                </fieldset>
+
+        </form> 
+    </div>
+
+ </body>
+</html>

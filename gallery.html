@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .back {
+                    position: absolute;
+                    width: 50%;
+            }
+        .image{
+                    opacity: 1;
+                    border: grey;
+                    
+                    
+        }
+        .on{
+                opacity: 0;
+                position: absolute;
+                top:35%;
+                right: 65%;
+                bottom: 65%;
+                text-align: center;
+
+        }
+.back:hover .image {
+  opacity: 0.3;
+}
+
+.back:hover .on {
+  opacity: 1;
+}
+.text {
+  background-color: cadetblue;
+  color: black;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  s
+  }
+  .text:hover{
+      background-color: rgb(109, 84, 92);
+      color: black;
+      cursor: pointer;
+  }
+  
+
+    </style>
+</head>
+<body>
+    
+    <div class="back">
+        <a href ="https://www.google.com/" ><img src="fc.jpg" alt="Gallery" class="image" style="width:50%"></a>
+        <div class="on">
+        <a href="https://www.google.com/">  <div class="text">GALLERY</div></a>
+        </div>
+    </div>
+</body>
+</html>

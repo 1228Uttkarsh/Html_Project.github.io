@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reviews</title>
+    <style>
+        body{
+            background-image: url(re.jpg);
+            background-attachment: fixed;
+  	    background-position: center;
+ 	    background-repeat: no-repeat;
+  	    background-size: cover;
+        }
+ .review{
+     margin: 50px auto;
+ }
+ .review h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 800;
+    color: rgb(172, 29, 95);
+    background-color: rgb(235, 170, 197);   
+ }
+ .review .or{
+     margin-top: 30px;
+ }
+ .ver{
+     margin: 40px auto;
+    
+ }
+ .full{
+    background-color: transparent;
+    padding-bottom: 150px;
+ }
+ .profile{
+     padding: 20px 40px;
+     background-color: rgb(222, 228, 238);
+     
+ }
+ .profile:hover{
+     box-shadow: 10px 10px 10px 10px rgba(25, 0, 255, 0.2);
+     cursor: pointer;
+ }
+  blockquote{
+    text-align: left; 
+    width: 300px;
+    font-size: 15px; 
+    line-height: 27px;
+  }
+  blockquote::before{
+      content: '\93';
+      font-size: 50px;
+      position: relative;
+      color:#ff9800;
+      line-height: 27px;
+      bottom: -15px;
+      right: 5px;
+
+  }
+  blockquote::after{
+      content: '\94';
+      font-size: 50px;
+      position: relative;
+      color:#ff9800;
+      line-height: 10px;
+      bottom: -15px;
+      right: 5px;
+
+  }
+  .pic{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
+  h2{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgb(66, 78, 14);
+  }
+  span{
+      font-size: 17px;
+      color: midnightblue;
+  }
+  #abc{
+    color: rgb(66, 78, 14);
+    font-size: 50px;
+    background-color: rgb(172, 216, 216);
+    border-radius: 40px;
+  }
+  .left{
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+      }  
+      .btn {
+        cursor: pointer;
+        
+        background-color:rgb(114, 114, 170);
+        height: 50px;
+        width: 100px;
+        color: #e0bfbf;
+        font-size: 30px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+   
+
+    </style>
+</head>
+<body>
+    <section class="review">
+        <div class="left"> <button class="btn"><a href="project.html">Home</a></button> </div>
+        
+            <h1>REVIEWS</h1>
+            <div class="or">
+                <center>
+                <div class="ver">
+                    <div class="profile">
+                        <img src="mal.png" class="pic" width="20%" height="40%">
+                        <h2>ABCD SOMEONE<span> ertyuio at wertyu</span></h2>
+                        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum corporis assumenda illo impedit, officia at vitae magnam ab magni! Alias facilis maiores labore exercitationem qui assumenda eius sapiente sint error!</blockquote>
+                        
+                    </div>
+                </div>
+                </center>
+                <center>
+                <div class="ver">
+                    <div class="profile">
+                        <img src="fema.jpg" class="pic" width="20%" height="40%">
+                        <h2>ABCD SOMEONE<span> ertyuio at wertyu</span></h2>
+                        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum corporis assumenda illo impedit, officia at vitae magnam ab magni! Alias facilis maiores labore exercitationem qui assumenda eius sapiente sint error!</blockquote>
+                        
+                    </div>
+                </div>
+                </center>
+                <center>
+                <div class="ver">
+                    <div class="profile">
+                        <img src="fem.png" class="pic" width="20%" height="40%">
+                        <h2>ABCD SOMEONE<span> ertyuio at wertyu</span></h2>
+                        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum corporis assumenda illo impedit, officia at vitae magnam ab magni! Alias facilis maiores labore exercitationem qui assumenda eius sapiente sint error!</blockquote>
+                        
+                    </div>
+                </div>
+                </center>
+                <center>
+                    <div class="ver">
+                        <div class="profile">
+                            <img src="ma.jpg" class="pic" width="20%" height="40%">
+                            <h2>ABCD SOMEONE<span> ertyuio at wertyu</span></h2>
+                            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum corporis assumenda illo impedit, officia at vitae magnam ab magni! Alias facilis maiores labore exercitationem qui assumenda eius sapiente sint error!</blockquote>
+                            
+                        </div>
+                    </div>
+                    </center>
+            </div>
+        
+    </section>
+    <section>
+        <form class="full" action="project.html">
+            <label id="abc">Provide your Feedback:</label><br>
+            <textarea name="feedback" rows="10" cols="150"></textarea>
+        </form>
+    </section>
+    
+</body>
+</html>

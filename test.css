@@ -1,0 +1,112 @@
+body{
+    background-image: url('image/bi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+      
+      .bg {
+        /* The image used */
+        background-image: url("image/bi.jpg");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .head{
+        text-align: center;
+        font-size: 80px;
+        color: rgb(241, 231, 231);
+        font-family: 'Merienda', cursive;
+      
+      }
+      .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 20px;
+        top: 20px;
+      }  
+      .btn {
+        cursor: pointer;
+        border: 1px solid #3498db;
+        background-color: transparent;
+        height: 50px;
+        width: 100px;
+        color: #fcfcfc;
+        font-size: 30px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+   
+.surya{
+width: 10%;}
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row{
+  margin: 5px;
+  padding: 10px;
+}
+
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(253, 253, 253, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+  position: absolute;
+}
+b{
+  color: aliceblue;
+}
+p{
+  position: absolute;
+}
+a{
+  color: #fcfcfc;
+  text-decoration: none;
+}
+.gym{
+  padding:0px;
+  margin-top: 38px;
+  border:solid;
+  border-color: papayawhip;
+}
+.namaskar{
+  padding:0px;
+  margin-top: 38px;
+  border:solid;
+  border-color: papayawhip;
+}
+.tab{
+  padding-top: 40px;
+}
+.rp{
+  margin: 10px;
+  padding: 20px;
+  border: solid;
+  width: 25%;
+  
+}
